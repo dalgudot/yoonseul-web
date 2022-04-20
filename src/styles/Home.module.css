@@ -16,6 +16,10 @@
   color: #e1dee6;
   text-align: center;
   padding: 0 24px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .main p {
