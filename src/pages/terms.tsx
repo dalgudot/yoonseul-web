@@ -8,39 +8,43 @@ const Terms: NextPage = () => {
         <h1>Terms of Use & Subscription Terms and Pricing Guide</h1>
         {/* LICENSED APPLICATION END USER LICENSE AGREEMENT */}
 
-        <h2>Terms of Use</h2>
-        {termsContents.map((content) => (
-          <p key={content}>{content}</p>
-        ))}
+        <section className={style.section}>
+          <h2>Terms of Use</h2>
+          {termsContents.map((content) => (
+            <p key={content}>{content}</p>
+          ))}
+        </section>
 
-        <h2>Subscription Terms and Pricing Guide</h2>
-        <p>
-          - Monthly membership is $0.99 per month, and annual membership is
-          $7.99 (32% OFF) per year.
-        </p>
-        <p>
-          - These prices are for United States customers. Pricing in other
-          countries may vary, and actual charges may be converted to your local
-          currency depending on the country of residence.
-        </p>
-        <p>
-          - Before membership subscription, you can experience the app by
-          recording 9 records.
-        </p>
-        <p>
-          - Subscription payment will be charged to your Apple account upon
-          confirmation.
-        </p>
-        <p>
-          - Subscription automatically renews unless auto-renew is turned off at
-          least 24-hours before the end of the subscription period, and
-          subscription renewal fees will be charged to your Apple account.
-        </p>
-        <p>
-          - You can cancel automatic subscription renewal at any time in the
-          Settings of your Apple Account or in the Manage Membership in the app.
-          No refunds will be made for any unused period.
-        </p>
+        <section className={style.section}>
+          <h2>Subscription Terms and Pricing Guide</h2>
+          <p>
+            - Monthly membership is $0.99 per month, and annual membership is
+            $7.99 (32% OFF) per year.
+          </p>
+          <p>
+            - These prices are for United States customers. Pricing in other
+            countries may vary, and actual charges may be converted to your
+            local currency depending on the country of residence.
+          </p>
+          <p>
+            - Before membership subscription, you can experience the app by
+            recording 9 records.
+          </p>
+          <p>
+            - Subscription payment will be charged to your Apple account upon
+            confirmation.
+          </p>
+          <p>
+            - Subscription automatically renews unless auto-renew is turned off
+            at least 24-hours before the end of the subscription period, and
+            subscription renewal fees will be charged to your Apple account.
+          </p>
+          <p>
+            - You can cancel automatic subscription renewal at any time in the
+            Settings of your Apple Account or in the Manage Membership in the
+            app. No refunds will be made for any unused period.
+          </p>
+        </section>
       </main>
     </>
   );
