@@ -37,3 +37,8 @@
   display: inline-block;
   color: #2690e7;
 }
+
+.lasest__update {
+  padding-top: 36px;
+  color: rgb(118, 118, 118);
+}

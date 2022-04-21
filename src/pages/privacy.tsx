@@ -47,7 +47,7 @@ const Privacy: NextPage = () => {
           </a>
         </p>
 
-        <p>Lastest Update: Apr 21, 2022</p>
+        <p className={style.lasest__update}>Latest Update: Apr 21, 2022</p>
       </section>
 
       {/* <p>{descriotion}</p> */}
