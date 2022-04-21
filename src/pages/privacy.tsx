@@ -37,7 +37,14 @@ const Privacy: NextPage = () => {
         <h2>Contact Us</h2>
         <p>
           If you have any questions or suggestions about this Privacy Policy, do
-          not hesitate to contact me at yoonseul.app@gmail.com.
+          not hesitate to contact me at{' '}
+          <a
+            href='mailto:yoonseul.app@gmail.com'
+            target='_blank'
+            rel='noreferrer'
+          >
+            yoonseul.app@gmail.com
+          </a>
         </p>
       </section>
 
