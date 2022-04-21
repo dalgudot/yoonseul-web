@@ -9,6 +9,7 @@
 
 .main h1 {
   margin-top: 48px;
+  font-size: 48px;
 }
 
 .section {
@@ -28,8 +29,11 @@
   max-width: 1000px;
   text-align: left;
   margin-top: 12px;
+  display: inline-block;
 }
 
 .section a {
-  margin: 36px;
+  text-align: left;
+  display: inline-block;
+  color: #2690e7;
 }
