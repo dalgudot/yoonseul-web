@@ -25,11 +25,11 @@ const Privacy: NextPage = () => {
           in YoonSeul for iOS.
         </p>
 
-        <h2>This application does not collect any user data.</h2>
+        <h2>This Application Does Not Collect Personal Information.</h2>
         <p>{description1}</p>
 
         <h2>
-          This application comply with the Children’s Online Privacy Protection
+          This Application Comply with the Children’s Online Privacy Protection
           Act
         </h2>
         <p>{description2}</p>
