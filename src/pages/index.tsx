@@ -10,7 +10,7 @@ const Home: NextPage = () => {
   return (
     <main className={style.main}>
       <Logo />
-      <h1>{locale === 'ko' ? '윤슬' : 'Remember this moment'}</h1>
+      <h1>{locale === 'ko' ? '윤슬' : 'YoonSeul'}</h1>
       <p>{locale === 'ko' ? '지금을 기억하기' : 'Remember this moment'}</p>
     </main>
   );
