@@ -5,7 +5,7 @@ const Terms: NextPage = () => {
   return (
     <>
       <main className={style.main}>
-        <h1>Terms of Use & Subscription Terms and Pricing Guide</h1>
+        <h1>Terms of Use & Subscription Guide</h1>
         {/* LICENSED APPLICATION END USER LICENSE AGREEMENT */}
 
         <section className={style.section}>
