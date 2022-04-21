@@ -46,6 +46,8 @@ const Privacy: NextPage = () => {
             yoonseul.app@gmail.com
           </a>
         </p>
+
+        <p>Lastest Update: Apr 21, 2022</p>
       </section>
 
       {/* <p>{descriotion}</p> */}
