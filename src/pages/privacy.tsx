@@ -9,7 +9,7 @@ const Privacy: NextPage = () => {
   // const korean = '이 어플리케이션은 자체적으로 사용자의 어떤 데이터도 수집하지 않습니다. 글과 사진, 날짜 데이터는 각 사용자의 개인 아이클라우드에 안전하게 저장됩니다. 개인 아이클라우드 데이터 및 자동 갱신 구독 결제와 관련된 개인 정보 보호 정책은 아래에 있는 애플의 개인 정보 보호 정책을 따릅니다.';
   // This application itself does not collect any user data. Texts, photos, and date data are securely stored on each user's personal device and Apple iCloud account. The privacy policy regarding personal iCloud data and auto-renewing subscription payments is governed by Apple's privacy policy below.
   const description1 =
-    'This application does not collect, use, save, or have access to any of your personal data recorded in YoonSeul. Texts, photos, and date data stored in the YoonSeul app are only saved on your device and your iCloud. You might also be asked to provide access to your photo library, but this is to help you save photos taken by YoonSeul in your photo library. This application doesn’t process that information at all and have no access to it.';
+    'This application does not collect, use, save, or have access to any of your personal data recorded in YoonSeul. Texts, photos, and date data stored in the YoonSeul app are only saved on your device and your iCloud. You might also be asked to provide access to your photo library, but this is to save the photos taken by YoonSeul Application in your photo library. This application doesn’t process that information at all.';
 
   const description2 =
     'This application doesn’t collect personal information from anyone, including children under the age of 13.';
@@ -22,15 +22,14 @@ const Privacy: NextPage = () => {
         <h2>Overview</h2>
         <p>
           This Privacy Policy describes how your personal information is handled
-          in YoonSeul for iOS.
+          in YoonSeul Application.
         </p>
 
-        <h2>This Application Does Not Collect Personal Information.</h2>
+        <h2>YoonSeul Does Not Collect Personal Information.</h2>
         <p>{description1}</p>
 
         <h2>
-          This Application Comply with the Children’s Online Privacy Protection
-          Act
+          YoonSeul Comply with the Children’s Online Privacy Protection Act
         </h2>
         <p>{description2}</p>
 
