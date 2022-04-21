@@ -16,7 +16,7 @@ const Terms: NextPage = () => {
         </section>
 
         <section className={style.section}>
-          <h2>Subscription Terms and Pricing Guide</h2>
+          <h2>Subscription Guide</h2>
           <p>
             - Monthly membership is $0.99 per month, and annual membership is
             $7.99 (32% OFF) per year.
