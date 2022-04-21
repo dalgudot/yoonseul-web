@@ -7,22 +7,25 @@
   align-items: center;
 }
 
-.main h2 {
-  margin-top: 48px;
-  text-align: center;
-}
-
-.main p {
-  max-width: 1000px;
-  text-align: left;
-}
-
-.main a {
-  margin: 36px;
-}
-
 .section {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.section h2 {
+  margin-top: 48px;
+  text-align: center;
+  margin-top: 72px;
+  font-size: 24px;
+}
+
+.section p {
+  max-width: 1000px;
+  text-align: left;
+  margin-top: 12px;
+}
+
+.section a {
+  margin: 36px;
 }
